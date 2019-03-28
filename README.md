@@ -50,6 +50,14 @@ O projeto segue a ideia, na medida do possível do procesos MicrosoftTDSP para p
 * Modeling - Aplicaçãpo de ML
 * RawData - local para os dados originais, não versionados para diminuir o peso do repositório.
 
+### Objetivos do estudo
+
+* Encontre 100+/-5 regras de associação, variando o suporte e a confiança, de modo que tanto o lift quanto o chi-square sejam utilizados para avaliar as melhores regras.
+* Gere uma tabela comparando as regras como seguinte formato: Regra | suporte | confiança | lift (B,C) e (B,!C) | chi-square...
+* A regra deve ter os nomes dos filmes: Toy Story => Richard III. Regras com apenas dois itens.
+* Aplique os mesmos parâmetros no conjunto de 1M e gere a tabela acima. Discuta brevemente se os parâmetros produziram um resultado semelhante ou se seria necessário adaptá-los, e como.
+* Gerar um PDF e entregar.
+
 ## Authors
 
 * **Thiago S.**
