@@ -1,0 +1,1 @@
+jupyter nbconvert --to pdf ./Modeling/MarketBasket.ipynb --output ./final_report.pdf
