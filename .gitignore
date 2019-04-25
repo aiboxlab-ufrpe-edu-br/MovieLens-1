@@ -1,2 +1,8 @@
+#vscode
+.vscode
+
+# diretorios 
 RawData
+
+# notebooks
 .ipynb_checkpoints
